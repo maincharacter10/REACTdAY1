@@ -16,11 +16,17 @@ const Navbar = () => {
                 <Button><Link to={'/t'}style={{ textDecoration: 'none',color: 'white'}}>Table</Link></Button>
                 <Button><Link to={'/'} style={{ textDecoration: 'none',color: 'white'}}>First</Link></Button>
                 <Button><Link to={'/d'} style={{ textDecoration: 'none',color: 'white'}}>Details</Link></Button>
+                <Button><Link to={'/n'} style={{ textDecoration: 'none',color: 'white'}}>New</Link></Button>
+                <Button><Link to={'/f'} style={{ textDecoration: 'none',color: 'white'}}>FormBasics</Link></Button>
+                <Button><Link to={'/a'} style={{ textDecoration: 'none',color: 'white'}}>ApiBasics</Link></Button>
+                <Button><Link to={'/g'} style={{ textDecoration: 'none',color: 'white'}}>GridCard</Link></Button>
             </Toolbar>
         </AppBar>
       </Box>
     </div>
   )
 }
+
+
 
 export default Navbar

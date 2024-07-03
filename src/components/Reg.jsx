@@ -4,7 +4,7 @@ import React from 'react';
 const Reg =() => {
     return (
         <div>
-             
+             <h1>REGISTRATION FORM</h1>
              <TextField variant="outlined" label='Name'/>
              <br></br>
              <br />

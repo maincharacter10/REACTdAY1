@@ -4,6 +4,7 @@ import React from 'react'
 const Tab = () => {
   return (
     <div>
+      <h1>TABLE</h1>
       <TableContainer>
         <Table>
             <TableHead>
@@ -16,7 +17,7 @@ const Tab = () => {
             <TableBody>
                 <TableRow>
                     <TableCell>Alex</TableCell>
-                    <TableCell>12</TableCell>
+                    <TableCell>20</TableCell>
                     <TableCell>EKM</TableCell>
                 </TableRow>
             </TableBody>
